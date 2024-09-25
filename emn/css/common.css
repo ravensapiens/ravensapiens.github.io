@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=SUSE|Hina+Mincho&display=swap');
+/*** 共通設定 ***/
+body {
+	font-family:"SUSE","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Meiryo UI", "メイリオ", Meiryo ,"ＭＳ Ｐゴシック" ,"MS PGothic", sans-serif;
+	color: #666;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #e3dbd0;
+}
+header {
+	height: 60px;
+	background-color: #e3dbd0;
+}
+header h1 {
+	float: left;
+	background-image: url('../images/logo.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	width: 345px;
+	height: 80px;
+}
+.nav {
+	width: 500px;
+	float: right;
+}
+.nav_list {
+	display: block;
+	margin-top: 40px;
+	list-style: none;
+}
+.nav_list li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	font-size: 86%;
+}
+.nav_list li a {
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: #666;
+}
+.goTop {
+	display: none;
+	background-image: url('../images/goTop.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	opacity: 0.5;
+	z-index: 1000;
+	transition: all 0.5s ease;
+}
+.goTop:hover {
+	background-image: url('../images/goTopHover.png');
+	opacity: 0.9;
+}
+footer {
+	background-image: url('../images/footer.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 212px;
+	font-size: 14px;
+	position: relative;
+}
+footer small {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.imgResp {
+	max-width: 100% !important;
+	object-fit: cover;
+	object-position: right top;
+}
+/*** COMMON FOR OTHER THAN MAIN PAGE ***/
+.key {
+	position: relative;
+}
+.key .titleEn {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	font-size: 50px;
+	color: #333;
+	font-weight: bold;
+	text-shadow: #fff 2px 2px 5px, #fff -2px -2px 5px;
+}
+.key .titleJp {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	font-family: "Hina Mincho", serif;
+	font-size: 20px;
+	color: #222;
+	text-shadow: #fff 2px 2px 3px, #fff -2px -2px 3px;
+}
+/********  RESPONSIVE  *********/
+@media screen and (max-width: 768px) {
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #e3dbd0;
+	}
+	footer {
+		background-position: center bottom;
+		background-size: contain;
+		background-repeat: no-repeat;
+		text-align: center;
+		height: 120px;
+		font-size: 14px;
+		position: relative;
+	}
+	header h1 {
+		float: left;
+		background-image: url('../images/logoMobile.png');
+		margin-left: 20px;
+		width: 80px;
+		height: 80px;
+	}
+	.nav {
+		background-image: url('../images/menu.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-right: 20px;
+		width: 80px;
+		height: 80px;
+		float: right;
+		cursor: pointer;
+		position: relative;
+	}
+	.nav .active {
+		background-image: url('../images/menu_close.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-right: 20px;
+		width: 80px;
+		height: 80px;
+		float: right;
+		cursor: pointer;
+	}
+	.nav_list {
+		display: none;
+		position: absolute;
+		top: 80px;
+		margin-top: 0;
+	}
+	.nav_list li {
+		position: relative;
+		display: block;
+		width: 100px;
+		height: 50px;
+		text-align: center;
+		font-size: 86%;
+		z-index: 10000;
+		background-color: #6e6f2b;
+		border: 1px solid #eee;
+		transition: all 1s ease;
+	}
+	.nav_list li:hover {
+		background-color: #b7b87e;
+	}
+	.nav_list li a {
+		color: #fff;
+	}
+	.key {
+		width: 100%;
+		max-height: 250px;
+	}
+	.key img {
+		max-width: 100%;
+		object-fit: cover;
+		object-position: right top;
+	}
+	.key .titleEn {
+		font-size: 36px;
+	}
+	.key .titleJp {
+		top: 90px;
+		font-size: 18px;
+	}
+}
