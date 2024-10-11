@@ -90,6 +90,8 @@
 	background-color: #e85c0d;
 }
 .workstamp {
+	content: url('../images/works_top.png');
+	max-width: 100%;
 	margin: -90px 0 0 10%;
 }
 .working_crow {
@@ -251,6 +253,22 @@ button:hover {
 	#contact {
 		width: 95%;
 	}
+	.skills {
+		margin-top: 10px;
+	}
+	.about_photo {
+		float: none;
+		margin: 10px auto;
+	}
+	.workstamp {
+		margin: -90px 0 0;
+		max-width: 80%;
+		overflow: hidden;
+	}
+	.working_crow {
+		margin: -90px 0 0;
+		float: none;
+	}
 	.title_left {
 		width: 100%;
 		float: none;
@@ -261,11 +279,11 @@ button:hover {
 		margin: 10px 10px 50px ;
 	}
 	.fl {
-		width: 100%;
+		width: 90%;
 		float: none;
 	}
 	.fr {
-		width: 100%;
+		width: 90%;
 		float: none;
 	}
 	.form_section,
