@@ -142,8 +142,8 @@ section a {
 		margin: 10px auto;
 	}
 	.pagetop h1 {
-		font-size: 80px;
-		line-height: 60px;
+		font-size: 60px;
+		line-height: 50px;
 		margin-bottom: 30px;
 	}
 	.first_section,
@@ -153,13 +153,13 @@ section a {
 	}
 	.first_title,
 	.second_title {
-		font-size: 60px;
-		line-height: 50px;
-		margin-bottom: 30px;
+		font-size: 40px;
+		line-height: 30px;
+		padding: 10px 0 0;
 	}
 	.top_image {
 		width: 90%;
-		margin-left: 5%;
+		margin: 0 auto;
 	}
 	.top_image img {
 		width: 90%;
@@ -169,6 +169,12 @@ section a {
 		font-size: 14px;
 		margin-left: 5%;
 		margin-bottom: 30px;
+	}
+	.top_text p {
+		margin-top: 10px;
+	}
+	.top_text_vert {
+		margin: 10px auto;
 	}
 	section h3 img {
 		width: 90%;
