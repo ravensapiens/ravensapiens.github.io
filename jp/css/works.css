@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=SUSE|Anton|Kaisei+Opti|Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css?family=SUSE|Anton|M+PLUS+Rounded+1c|Kaisei+Opti|Hina+Mincho|Noto+Serif+Japanese&display=swap');
 /***************** WORKS (graphic design & illustration)  *****************/
 .wrapper_work {
 	max-width: 1200px;
@@ -30,7 +30,7 @@
 	transition: all 0.35s ease;
 }
 .work_list figcaption {
-	font-family: "Oxanium", sans-serif;
+	font-family: "M PLUS Rounded 1c", sans-serif;
 	font-size: 14px;
 	color: #040404;
 }
@@ -40,9 +40,10 @@
 	margin: 0 auto;
 }
 .page_title {
-	font-family: "SUSE", sans-serif;
-	font-size: 80px;
+	font-family: "Kaisei Opti", sans-serif;
+	font-size: 70px;
 	line-height: 55px;
+	letter-spacing: -0.1em;
 }
 .container {
 	max-width: 1000px;
@@ -52,6 +53,7 @@
 }
 aside {
 	position: sticky;
+	position: -webkit-sticky;
 	width: 40px;
 	top: 100px;
 	left: 0;
@@ -59,9 +61,9 @@ aside {
 	min-height: calc(100dvh - 220px);
 }
 .subnav {
-	font-family: "Oxanium", sans-serif;
-	font-size: 20px;
-	line-height: 1.2;
+	font-family: "Noto Serif Japanese", sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
 	color: #040404;
 	white-space: nowrap;
 	position: absolute;
@@ -138,8 +140,9 @@ article {
 	height: 150px;
 }
 section dd {
-	font-size: 14px;
-	line-height: 1.5;
+	font-family:"Hina Mincho", serif;
+	font-size: 16px;
+	line-height: 1.2;
 	padding: 20px;
 	text-align: left;
 	color: #222;
@@ -218,7 +221,7 @@ section dd {
 }
 .keys section dt,
 .ads section dt {
-	font-family: "Zen Kaku Gothic New", san-serif;
+	font-family: "Kaisei Opti", san-serif;
 	font-size: 30px;
 	font-weight: bold;
 	padding-top: 80px;
@@ -232,7 +235,7 @@ section dd {
 .cards section dt {
 	border-bottom: 2px solid yellow;
 	padding: 50px 0 10px;
-	font-family: "Zen Kaku Gothic New", san-serif;
+	font-family: "Kaisei Opti", san-serif;
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -303,39 +306,8 @@ section dd {
 	max-width: 100%;
 	height: auto;
 }
-
-/********* ILLUSTRATIONS ***********/
-.illustration_list {
-	width: 98%;
-	margin: 100px auto;
-	text-align: center;
-}
-.contained_img {
-	display: inline-block;
-	width: 30%;
-	height: auto;
-	margin: 0 auto;
-	vertical-align: middle;
-}
-.contained_img_big {
-	display: inline-block;
-	width: 60%;
-	height: auto;
-	margin: 0 auto;
-	vertical-align: middle;
-}
-.contained_img_big img,
-.contained_img img {
-	width: 98%;
-	height: 98%;
-	margin: 5px auto;
-}
 /********  RESPONSIVE  *********/
-@media screen and (max-width: 991px) {
-	.contained_img_big,
-	.contained_img {
-		width: 48%;
-	}
+@media screen and (max-width: 900px) {
 	.work_list figure {
 		width: 250px;
 		height: 280px;
@@ -459,10 +431,6 @@ section dd {
 	.work_list img {
 		max-width: 200px;
 		height: 200px;
-	}
-	.contained_img_big.
-	.contained_img {
-		width: 98%;
 	}
 }
 /*******  HOVER  *********/
