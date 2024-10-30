@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=SUSE|M+PLUS+Rounded+1c|Kaisei+Opti|Hina+Mincho|Noto+Serif+Japanese&display=swap');
+@import url('https://fonts.googleapis.com/css?family=SUSE|Anton|M+PLUS+Rounded+1c|Kaisei+Opti|Hina+Mincho|Noto+Serif+Japanese&display=swap');
 /***************** WORKS (graphic design & illustration)  *****************/
 .wrapper_work {
 	max-width: 1200px;
@@ -150,7 +150,7 @@ section dd {
 	position: absolute;
 	top: -50px;
 	right: -180px;
-	font-family: impact, san-serif;
+	font-family: "Anton", san-serif;
 	font-size: 200px;
 	color: #163552;
 }
@@ -158,7 +158,7 @@ section dd {
 	position: absolute;
 	top: -50px;
 	right: -150px;
-	font-family: impact, san-serif;
+	font-family: "Anton", san-serif;
 	font-size: 200px;
 	color: #ff5733;
 }
@@ -167,7 +167,7 @@ section dd {
 	top: -120px;
 	left: -150px;
 	margin-top: 0;
-	font-family: impact, san-serif;
+	font-family: "Anton", san-serif;
 	font-size: 200px;
 	color: #322048;
 }
@@ -176,7 +176,7 @@ section dd {
 	top: -120px;
 	left: -150px;
 	margin-top: 0;
-	font-family: impact, san-serif;
+	font-family: "Anton", san-serif;
 	font-size: 200px;
 	color: #ff5733;
 }
@@ -206,7 +206,7 @@ section dd {
 	position: absolute;
 	top: -100px;
 	left: -30px;
-	font-family: impact, san-serif;
+	font-family: "Anton", san-serif;
 	font-size: 200px;
 	color: #163552;
 }
