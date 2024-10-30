@@ -52,11 +52,12 @@
 }
 aside {
 	position: sticky;
+	position: -webkit-sticky;
 	width: 40px;
 	top: 100px;
 	left: 0;
 	float: left;
-	min-height: calc(100vh - 220px);
+	min-height: calc(100dvh - 220px);
 }
 .subnav {
 	font-family: "Oxanium", sans-serif;
@@ -292,7 +293,7 @@ section dd {
 	background-size: contain;
 	background-repeat: no-repeat;
 	min-width: 100%;
-	min-height: calc(100vh - 220px);
+	min-height: calc(100dvh - 220px);
 	position: relative;
 }
 .coming_soon {
