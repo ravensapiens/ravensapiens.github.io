@@ -129,6 +129,18 @@ footer small {
 	line-height: 70px;
 	color: #42602d;
 }
+/******** SCROLL SHOW *******/
+.scrollShow {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(140px);
+  transition: all 1s;
+}
+.scrollShow.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
 /********  INDEX  *********/
 .footer {
 	width: 100%;
