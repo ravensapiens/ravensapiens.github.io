@@ -56,7 +56,7 @@ aside {
 	top: 100px;
 	left: 0;
 	float: left;
-	min-height: 100vh;
+	min-height: calc(100vh - 220px);
 }
 .subnav {
 	font-family: "Oxanium", sans-serif;
@@ -292,7 +292,7 @@ section dd {
 	background-size: contain;
 	background-repeat: no-repeat;
 	min-width: 100%;
-	min-height: 100vh;
+	min-height: calc(100vh - 220px);
 	position: relative;
 }
 .coming_soon {
