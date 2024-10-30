@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=SUSE|Kaisei+Opti|Zen+Kaku+Gothic+New&display=swap');
+/*** 共通設定 ***/
+body {
+	font-family:"Zen Kaku Gothic New","Kaisei Opti", "SUSE","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Meiryo UI", "メイリオ", Meiryo ,"ＭＳ Ｐゴシック" ,"MS PGothic", sans-serif;
+	color: #333;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.white_text { color: #fff; }
+.black_text { color: #000; }
+.red_text { color: #c11;}
+.orange_text { color: #e85c0d; }
+.gray_bg { background-color: #ddd; }
+.salmon_bg { background-color: #e0bcb0; }
+.green_bg { background-color: #9fd4b5; }
+.mint_bg { background-color: #98dfd6; }
+
+.wrapper {
+	max-width: 1200px;
+	background-image: url('../images/eating-disorder.jpg');
+	background-position: center bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	background-color: #a1f8ff;
+	position: relative;
+}
+.washi_bg {
+	background-image: url('../images/washi-texture-pattern3.png');
+	background-position: center;
+	background-size: 20%;
+	background-repeat: repeat;
+}
+
+header {
+	max-width: 1200px;
+	height: 90px;
+	position: relative;
+	margin: 0 auto;
+}
+#logo {
+	content: url('../images/logo.png');
+	max-width: 100%;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.lang {
+	display: inline-block;
+	font-family: "SUSE", sans-serif;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	position: absolute;
+    top: 10px; 
+    right: 90px;
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+}
+.lang .active {
+	color: #444;
+}
+.lang a {
+	text-decoration: none;
+	color: #00aa90;
+	transition: all 0.35s ease;
+}
+.nav {
+	display: inline-block;
+	background-image: url('../images/menu.png');
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    content:"";
+    cursor: pointer;
+	z-index: 1000;
+}
+.nav ul {
+	display: none;
+	width: 300px;
+	height: 150px;
+	background-color: rgb(247, 217, 76, 0.9);
+	/*margin: 0 auto;*/
+	padding: 50px 0;
+	text-align: center;
+	z-index: 100;
+	position: absolute;
+	top: 90px;
+	right: -10px;
+	/*left: 50%;
+	transform: translateX(-50%);*/
+	cursor: initial;
+}
+.nav ul li {
+	display: block;
+	font-size: 18px;
+	line-height: 2;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: #030303;
+	padding-bottom: 7px;
+	position: relative;
+}
+.page_title {
+	font-family:"SUSE", sans-serif;
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	height: 70px;
+}
+footer small {
+	font-size: 10px;
+	line-height: 70px;
+	color: #42602d;
+}
+/********  INDEX  *********/
+.footer {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+}
+.footer small {
+	font-family:"Zen Kaku Gothic New", sans-serif;
+	font-size: 10px;
+	color: #42602d;
+}
+/********  RESPONSIVE  *********/
+@media screen and (max-width: 768px) {
+	.lang {
+		right: 50px;
+	}
+}
+
+/*******  HOVER  *********/
+@media (hover: hover){
+	.nav ul li a::after {
+		height: 1px;
+		position: absolute;
+		content: "";
+		background-color: #99f;
+		transition: all 0.35s ease;
+		width: 0;
+	}
+	.nav ul li a::after {
+		bottom: 0;
+		left: 0;
+	}
+	.nav ul li a:hover::after {
+		width: 100%;
+	}
+	.lang a:hover {
+		color: #e83015;
+	}
+}
+
