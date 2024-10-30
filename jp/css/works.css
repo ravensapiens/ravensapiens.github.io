@@ -1,0 +1,443 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=SUSE|M+PLUS+Rounded+1c|Kaisei+Opti|Hina+Mincho|Noto+Serif+Japanese&display=swap');
+/***************** WORKS (graphic design & illustration)  *****************/
+.wrapper_work {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fefefe;
+	position: relative;
+}
+.work_list {
+	max-width: 100%;
+	margin: 60px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+}
+.work_list figure {
+	width: 400px;
+	height: 450px;
+	margin: 0 auto;
+	transform: rotate(35deg);
+	transition: all 0.35s ease;
+}
+.work_list img {
+	max-width: 400px;
+	height: 400px;
+	object-fit: contain;
+	overflow: hidden;
+	background-color: #ffff8f;
+	transition: all 0.35s ease;
+}
+.work_list figcaption {
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-size: 14px;
+	color: #040404;
+}
+.wrapper_blank {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.page_title {
+	font-family: "Kaisei Opti", sans-serif;
+	font-size: 70px;
+	line-height: 55px;
+	letter-spacing: -0.1em;
+}
+.container {
+	max-width: 1000px;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+aside {
+	position: sticky;
+	width: 40px;
+	top: 100px;
+	left: 0;
+	float: left;
+	min-height: 100vh;
+}
+.subnav {
+	font-family: "Noto Serif Japanese", sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #040404;
+	white-space: nowrap;
+	position: absolute;
+	top: 150px;
+	left: -130px;
+	transform: rotate(-90deg);
+}
+.subnav .active {
+	color: #fff;
+}
+.subnav a {
+	text-decoration: none;
+	color: #040404;
+	transition: all 0.35s ease;
+}
+.contents {
+	width: calc(100% - 50px);
+	float: right;
+}
+article {
+	width: 100%;
+	margin: 20px 0 70px;
+	position: relative;
+}
+/********  Packaging  *********/
+.cafe {
+	background-color: #faf5cf;
+}
+.sweets {
+	background-color: #efcbc5;
+}
+.ads section,
+.cafe section {
+	position: relative;
+	background-color: #fff;
+	width: 35%;
+	padding: 5px;
+	margin: 50px 20px 30px;
+	text-align: center;
+	float: left;
+}
+.cafe .mockup {
+	width: 50%;
+	float: right;
+	margin: 120px 0 0 0;
+}
+.sweets section {
+	position: relative;
+	width: 35%;
+	padding: 5px;
+	margin: 120px 10px 30px;
+	text-align: center;
+	float: right;
+	background-color: #fff;
+}
+.sweets .mockup {
+	width: 60%;
+	float: left;
+	margin-top: 200px;
+}
+.ads section dt,
+.cafe section dt {
+	border-bottom: 3px solid #a0d1a4;
+	padding: 30px 0 10px;
+}
+.sweets section dt {
+	border-bottom: 3px solid #ca0f44;
+	padding: 10px 0;
+}
+.cafe section dt img {
+	height: 100px;
+}
+.sweets section dt img {
+	height: 150px;
+}
+section dd {
+	font-family:"Hina Mincho", serif;
+	font-size: 16px;
+	line-height: 1.2;
+	padding: 20px;
+	text-align: left;
+	color: #222;
+}
+.cafe section .chapterNumber {
+	position: absolute;
+	top: -50px;
+	right: -180px;
+	font-family: impact, san-serif;
+	font-size: 200px;
+	color: #163552;
+}
+.ads section .chapterNumber {
+	position: absolute;
+	top: -50px;
+	right: -150px;
+	font-family: impact, san-serif;
+	font-size: 200px;
+	color: #ff5733;
+}
+.sweets section .chapterNumber {
+	position: absolute;
+	top: -120px;
+	left: -150px;
+	margin-top: 0;
+	font-family: impact, san-serif;
+	font-size: 200px;
+	color: #322048;
+}
+.keys section .chapterNumber {
+	position: absolute;
+	top: -120px;
+	left: -150px;
+	margin-top: 0;
+	font-family: impact, san-serif;
+	font-size: 200px;
+	color: #ff5733;
+}
+/********  Print  *********/
+.print_frame {
+	position: relative;
+	background: #e0bcb0;
+	width: 100%;
+	max-width: 1200px;
+	min-height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cards {
+	background-color: #ddd;
+	padding-top: 10px;
+}
+.cards section {
+	position: relative;
+	background-color: #fff;
+	width: 90%;
+	padding: 5px;
+	margin: 90px auto 10px;
+	text-align: center;
+}
+.cards section .chapterNumber {
+	position: absolute;
+	top: -100px;
+	left: -30px;
+	font-family: impact, san-serif;
+	font-size: 200px;
+	color: #163552;
+}
+.keys section {
+	width: 40%;
+	padding: 5px;
+	margin: 150px 10px 30px;
+	background-color: #fff;
+	text-align: center;
+	float: right;
+}
+.keys section dt,
+.ads section dt {
+	font-family: "Kaisei Opti", san-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 80px;
+	border-bottom: 2px solid #a0d1a4;
+}
+.keys .mockup {
+	width: 50%;
+	float: left;
+	margin-top: 150px;
+}	
+.cards section dt {
+	border-bottom: 2px solid yellow;
+	padding: 50px 0 10px;
+	font-family: "Kaisei Opti", san-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+.flyerImg {
+	width: 90%;
+	margin: 10px auto 50px;
+	font-size: 14px;
+	text-align: right;
+}
+.flyerImg img {
+	padding-bottom: 3px;
+}
+/********  Ads  *********/	
+.ads_frame {
+	position: relative;
+	background: #9fd4b5;
+	width: 100%;
+	max-width: 1200px;
+	min-height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.keys,
+.ads {
+	background-color: #eee;
+}
+.ads .mockup{
+	width: 55%;
+	float: right;
+	margin-top: 100px;
+}
+.keys section {
+	position: relative;
+	width: 40%;
+	padding: 5px;
+	margin: 150px 10px 30px;
+	text-align: center;
+	float: right;
+}
+.keys section dt {
+	padding-top: 80px;
+}
+.keys .mockup {
+	width: 50%;
+	float: left;
+	margin-top: 150px;
+}
+/********  Website  *********/
+.web {
+	background-color: #fff;
+}
+
+/********  Underconstruction  *********/
+.underconstruction_bg {
+	background-image: url('../images/underconstruction.png');
+	background-position: center top;
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+.coming_soon {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 100%;
+	height: auto;
+}
+/********  RESPONSIVE  *********/
+@media screen and (max-width: 900px) {
+	.work_list figure {
+		width: 250px;
+		height: 280px;
+	}
+	.work_list img {
+		max-width: 250px;
+		height: 250px;
+	}
+	.page_title {
+		font-size: 45px;
+		line-height: 40px;
+		margin-left: 10px;
+	}
+	article {
+		margin-bottom: 70px;
+	}
+	.flex-col {
+		flex-basis: 100%;
+	}
+	.cafe section .chapterNumber {
+		top: -20px;
+		right: -30px;
+		margin-top: 0;
+		font-size: 100px;
+	}
+	.sweets section .chapterNumber {
+		top: -20px;
+		left: -30px;
+		margin-top: 0;
+		font-size: 100px;
+	}
+	.cafe section {
+		position: relative;
+		width: 90%;
+		background-color: #fff;
+		margin: 0 auto;
+	}
+	.cafe .mockup {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.cafe section dt {
+		border-bottom: 2px solid #a0d1a4;
+		padding: 50px 0 10px;
+	}
+	.cafe section dt img {
+		height: 90px;
+	}
+	.keys section,
+	.sweets section {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.keys .mockup,
+	.sweets .mockup {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.sweets section dt {
+		border-bottom: 2px solid #ca0f44;
+		padding: 10px 0;
+	}
+	.sweets section dt img {
+		height: 130px;
+	}
+	section dd {
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 20px;
+		text-align: left;
+	}
+	.cards section {
+		width: 90%;
+		margin: 10px auto;
+	}
+	.cards section .chapterNumber {
+		top: -40px;
+		left: -10px;
+		margin-top: 0;
+		font-size: 100px;
+	}
+	.ads section {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.ads section .chapterNumber {
+		top: -20px;
+		right: -30px;
+		margin-top: 0;
+		font-size: 100px;
+	}
+	.ads .mockup {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.keys section dt,
+	.ads section dt {
+		padding: 60px 0 10px;
+	}
+	.ads section dt img {
+		height: 90px;
+	}
+	.keys section .chapterNumber {
+		top: -50px;
+		left: -30px;
+		font-size: 100px;
+	}
+	.keys {
+		background-color: #eee;
+	}
+	.keys section dt {
+		border-bottom: 2px solid #b9d300;
+		padding: 30px 0 10px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.work_list figure {
+		width: 200px;
+		height: 230px;
+	}
+	.work_list img {
+		max-width: 200px;
+		height: 200px;
+	}
+}
+/*******  HOVER  *********/
+@media (hover: hover){
+	.work_list figure:hover {
+		transform: rotate(0);
+	}
+	.subnav a:hover {
+		color: #0089a7;
+	}
+}
