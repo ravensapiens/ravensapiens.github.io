@@ -21,7 +21,7 @@ body {
 .wrapper {
 	max-width: 1200px;
 	background-image: url('../../images/eating-disorder.jpg');
-	background-position: center bottom;
+	background-position: bottom 70px center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -121,11 +121,11 @@ header {
 }
 footer {
 	width: 100%;
-	font-family:"Zen Kaku Gothic New", sans-serif;
 	text-align: center;
 	height: 70px;
 }
 footer small {
+	font-family:"Zen Kaku Gothic New", sans-serif;
 	font-size: 10px;
 	line-height: 70px;
 	color: #42602d;
@@ -147,10 +147,13 @@ footer small {
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	bottom: 20px;
+	bottom: 0;
+	height: 70px;
 }
 .footer small {
+	font-family:"Zen Kaku Gothic New", sans-serif;
 	font-size: 10px;
+	line-height: 70px;
 	color: #42602d;
 }
 /********  RESPONSIVE  *********/
