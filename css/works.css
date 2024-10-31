@@ -57,7 +57,9 @@ aside {
 	top: 100px;
 	left: 0;
 	float: left;
-	min-height: calc(100dvh - 220px);
+	min-height: calc(100vh - 220px);
+	min-height: -webkit-calc(100vh - 220px);
+	min-height: -moz-calc(100vh - 220px);
 }
 .subnav {
 	font-family: "Oxanium", sans-serif;
@@ -80,6 +82,8 @@ aside {
 }
 .contents {
 	width: calc(100% - 50px);
+	width: -webkit-calc(100% - 50px);
+	width: -moz-calc(100% - 50px);
 	float: right;
 }
 article {
@@ -294,6 +298,8 @@ section dd {
 	background-repeat: no-repeat;
 	min-width: 100%;
 	min-height: calc(100dvh - 220px);
+	min-height: -webkit-calc(100vh - 220px);
+	min-height: -moz-calc(100vh - 220px);
 	position: relative;
 }
 .coming_soon {
