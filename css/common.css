@@ -19,17 +19,25 @@ body {
 .salmon_bg { background-color: #e0bcb0; }
 .green_bg { background-color: #9fd4b5; }
 .mint_bg { background-color: #98dfd6; }
+
 .wrapper {
 	max-width: 1200px;
-	background-image: url('../images/eating-disorder.jpg');
+	/*background-image: url('../portfolio/007.gif');
 	background-position: bottom 70px center;
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	width: 100%;
 	min-height: 100vh;
 	margin: 0 auto;
 	background-color: #a1f8ff;
 	position: relative;
+}
+#sapiens_bond {
+	width: calc(100% - 1px);
+	height: auto;
+	margin: 10px auto;
+	border: none;
+	padding: 1px 0 0 1px;
 }
 .washi_bg {
 	background-image: url('../images/washi-texture-pattern3.png');
