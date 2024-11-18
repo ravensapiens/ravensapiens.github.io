@@ -47,7 +47,7 @@
 .container {
 	max-width: 1000px;
 	width: 95%;
-	margin: 0 auto;
+	margin: 30px auto;
 	position: relative;
 }
 aside {
@@ -313,7 +313,10 @@ section dd {
 
 /********* ILLUSTRATIONS ***********/
 .illustration_list {
-	width: 98%;
+	width: calc(100% - 50px);
+    width: -webkit-calc(100% - 50px);
+    width: -moz-calc(100% - 50px);
+    float: right;
 	margin: 100px auto;
 	text-align: center;
 }
