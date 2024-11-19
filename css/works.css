@@ -312,6 +312,13 @@ section dd {
 }
 
 /********* ILLUSTRATIONS ***********/
+.wrapper_illus {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #D7C4BB;
+	position: relative;
+}
 .illustration_list {
 	width: calc(100% - 50px);
     width: -webkit-calc(100% - 50px);
