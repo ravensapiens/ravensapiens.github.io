@@ -32,11 +32,14 @@ body {
 	position: relative;
 }
 #sapiens_bond {
-	width: calc(100% - 1px);
-	height: auto;
+	width: 100%;
+	min-height: calc(100vh - 70px);
 	margin: 30px auto;
 	border: none;
-	padding: 1px 0 0 1px;
+	background-image: url("../../007_3-min.gif");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .washi_bg {
 	background-image: url('../../images/washi-texture-pattern3.png');
@@ -170,8 +173,7 @@ footer small {
 		right: 50px;
 	}
 	#sapiens_bond {
-		margin: 50% auto;
-		transform: translateY(-50%);
+		margin: 60px auto;
 	}
 }
 
