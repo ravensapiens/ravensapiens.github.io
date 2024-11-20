@@ -34,7 +34,7 @@ body {
 }
 #sapiens_bond {
 	width: 100%;
-	min-height: calc(100vh - 70px);
+	min-height: calc(100vh - 140px);
 	margin: 30px auto;
 	border: none;
 	background-image: url("../../007_3-min.gif");
