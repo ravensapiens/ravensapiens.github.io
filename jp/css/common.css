@@ -175,6 +175,8 @@ footer small {
 	}
 	#sapiens_bond {
 		margin: 60px auto;
+		background-position: top 80px center;
+		background-size: 150%;
 	}
 }
 
