@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=SUSE|Anton|M+PLUS+Rounded+1c|Kaisei+Opti|Hina+Mincho|Noto+Serif+Japanese&display=swap');
+
 /***************** WORKS (graphic design & illustration)  *****************/
+
 .wrapper_work {
 	max-width: 1200px;
 	width: 100%;
@@ -70,7 +72,7 @@ aside {
 	white-space: nowrap;
 	position: absolute;
 	top: 150px;
-	left: -130px;
+	left: -140px;
 	transform: rotate(-90deg);
 }
 .subnav .active {
@@ -101,7 +103,13 @@ button {
 	margin: 20px;
 	cursor: pointer;
 }
+
 /********  Packaging  *********/
+
+.ytube {
+	background-color: #333;
+	padding-top: 10px;
+}
 .cafe {
 	background-color: #faf5cf;
 }
@@ -194,7 +202,20 @@ section dd {
 	font-size: 200px;
 	color: #ff5733;
 }
+.mbed_utube {
+    overflow: hidden;
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+}
+.mbed_utube iframe {
+    margin: 10px auto;
+    min-height: 500px;
+    width: 90%;
+}
+
 /********  Print  *********/
+
 .print_frame {
 	position: relative;
 	background: #e0bcb0;
@@ -261,7 +282,9 @@ section dd {
 .flyerImg img {
 	padding-bottom: 3px;
 }
-/********  Ads  *********/	
+
+/********  Ads  *********/
+
 .ads_frame {
 	position: relative;
 	background: #9fd4b5;
@@ -296,12 +319,15 @@ section dd {
 	float: left;
 	margin-top: 150px;
 }
+
 /********  Website  *********/
+
 .web {
 	background-color: #fff;
 }
 
 /********  Underconstruction  *********/
+
 .underconstruction_bg {
 	background-image: url('../images/underconstruction.png');
 	background-position: center top;
@@ -323,6 +349,7 @@ section dd {
 }
 
 /********* ILLUSTRATIONS ***********/
+
 .wrapper_illus {
 	max-width: 1200px;
 	width: 100%;
@@ -358,6 +385,7 @@ section dd {
 	height: 98%;
 	margin: 5px auto;
 }
+
 /********  RESPONSIVE  *********/
 
 @media screen and (max-width: 900px) {
@@ -489,12 +517,23 @@ section dd {
 		max-width: 200px;
 		height: 200px;
 	}
-	.contained_img_big.
+	.illustration_list {
+		margin: 40px auto;
+	}
+	.contained_img_big,
 	.contained_img {
-		width: 98%;
+		width: 90%;
+	}
+	.mbed_utube {
+		min-height: 400px;
+	}
+	.mbed_utube iframe {
+		min-height: 300px;
 	}
 }
+
 /*******  HOVER  *********/
+
 @media (hover: hover){
 	.work_list figure:hover {
 		transform: rotate(0);
