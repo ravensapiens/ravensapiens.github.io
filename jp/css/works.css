@@ -325,6 +325,10 @@ section dd {
 .web {
 	background-color: #fff;
 }
+.web_img {
+	margin-left: 50%; 
+	transform: translateX(-50%);
+}
 
 /********  Underconstruction  *********/
 
@@ -529,6 +533,10 @@ section dd {
 	}
 	.mbed_utube iframe {
 		min-height: 300px;
+	}
+	.web_img {
+		margin-left: 20%; 
+		transform: translateX(-12%);
 	}
 }
 
